@@ -39,9 +39,10 @@
 		font-weight: bold;
 	}
 
-	@media (min-width: 480px) {
-		footer {
-			padding: 40px 0;
-		}
+	:global(body) {
+		background-color: #dfe7fd;
+		color: #1d3557;
+		transition: background-color 0.3s
 	}
+
 </style>

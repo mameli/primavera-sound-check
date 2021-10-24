@@ -10,7 +10,7 @@
 </script>
 
 {#if filteredBands.length > 0}
-	<p class="text-xl text-center my-8">{day.day} - {day.place}</p>
+	<p class="text-xl text-center my-2">{day.day} - {day.place}</p>
     <div class="py-4 grid gap-4 md:grid-cols-3 grid-cols-1">
         {#each filteredBands as band}
         <!-- <span transition:fade="{{delay: 0, duration: 300}}">{band.name}</span> -->
